@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; // optional, gives parallax effect
+  
+}
+
+/* Layout container to prevent overlap with Navbar */
+.page-container {
+  min-height: calc(100vh - 140px); // 70px navbar + 70px footer
+  padding-top: 70px;               // Prevent content hiding under navbar
+  
+
+}
